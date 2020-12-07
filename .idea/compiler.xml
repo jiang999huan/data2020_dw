@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dw-common" />
+        <module name="dw-loggger" />
+        <module name="dw-mocker" />
+        <module name="dw-logger" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="data2020_dw" target="1.8" />
+      <module name="dw-common" target="1.8" />
+      <module name="dw-logger" target="1.5" />
+      <module name="dw-loggger" target="1.8" />
+      <module name="dw-mocker" target="1.8" />
+      <module name="dw-mocker.xml" target="1.8" />
+      <module name="dw_common" target="1.8" />
+      <module name="dw_mocker" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dw-logger" options="" />
+      <module name="dw-loggger" options="-parameters" />
+    </option>
+  </component>
+</project>
